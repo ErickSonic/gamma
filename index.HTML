@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="Description" content="Enter your description here" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+        <link rel="stylesheet" href="styles.css">
+        <title> Proyecto Calculadora</title>
+    </head>
+    <body class="bg-secondary">
+        <header class="mb-4 text-center"><div class="alert alert-danger d-flex justify-content-center align-items-center" role="alert"><h5>Función Gamma</h5></div></header>
+        <div class="container-fluid mt-n1">
+            <div class="row">
+                <section class="col-sm-12">
+                    <form action="index.html" method="post">
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <input class="form-control mt-2" type="text" id="num" placeholder="Número a calcular"/>   
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary w-100" id="btn">Calcular</button>
+                    </form>
+                    <div class="jumbotron mt-3 bg-warning mb-md-n2">
+                        <h5 class="mt-n4">Resultados</h5>
+                        <hr class="my-4" />
+                        <div class="overflow-auto caja">
+                            <p id="res"></p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.3.2/math.js"
+        integrity="sha512-Imer9iTeuCPbyZUYNTKsBWsAk3m7n1vOgPsAmw4OlkGSS9qK3/WlJZg7wC/9kL7nUUOyb06AYS8DyYQV7ELEbg=="
+        crossorigin="anonymous"></script>
+        <script type="module" src="main.js"></script>
+    </body>
+</html>
